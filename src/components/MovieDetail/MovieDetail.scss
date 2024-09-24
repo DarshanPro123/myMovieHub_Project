@@ -1,0 +1,29 @@
+@import "../../colors.scss";
+
+.movie-card {
+    display: flex;
+    margin: 80px auto;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    // margin: 20px auto;
+    background-color: $first_color ;
+    color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+
+    .movie-poster {
+        width: 300px;
+        height: 100%;
+
+        img {
+            width: 100%;
+            height: auto;
+        }
+    }
+
+
+}

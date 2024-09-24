@@ -1,0 +1,21 @@
+@import "../../colors.scss";
+
+footer {
+    border-top: $border;
+    color: $font_color;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $first_color;
+
+    a {
+        color: #fff;
+        text-decoration: none;
+    }
+}
